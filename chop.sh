@@ -10,6 +10,14 @@
 # Interface ambil dari argumen ke 2
 interface=$2
 
+# Fungsi untuk menangani error keyboard interrupt (CTRL+C)
+function keyboardinterrupt(){
+    echo -e "\n[-] Menghentikan channel hopping pada interface '${interface}'."
+    exit 1
+}
+
+trap keyboardinterrupt SIGINT
+
 # Fungsi usage
 function usage(){
     echo "Cara menggunakan: sudo bash $0 -i [interface]"
