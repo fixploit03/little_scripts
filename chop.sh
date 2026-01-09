@@ -32,6 +32,12 @@ else
     fi
 fi
 
+# Cek interface
+if ! iw dev | grep -wq "${interface}"; then
+    echo "[-] Interface '${interface}' tidak ditemukan."
+    exit 1
+fi
+
 # Pesan
 echo "[*] Memulai channel hopping pada interface '${interface}'..."
 
