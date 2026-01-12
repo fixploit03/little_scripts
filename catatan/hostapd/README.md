@@ -1,8 +1,7 @@
 # hostapd
 
-`hostapd` adalah sebuah utilitas perangkat lunak yang mengubah kartu antarmuka jaringan nirkabel (NIC) pada komputer menjadi access point (AP) Wi-Fi sekaligus server autentikasi, sehingga dapat memancarkan jaringan Wi-Fi dan mengelola koneksi klien. Hostapd mendukung berbagai protokol keamanan seperti WPA/WPA2/WPA3, EAP, dan RADIUS.
+`hostapd` adalah perangkat lunak daemon sumber terbuka yang berfungsi mengubah kartu jaringan Wi-Fi biasa pada sistem operasi seperti Linux atau FreeBSD menjadi sebuah Access Point (AP) sekaligus pengautentikasi jaringan berbasis 802.11 dan 802.1X, termasuk WPA, WPA2, WPA3, EAP, dan RADIUS, sehingga memungkinkan pembuatan jaringan Wi-Fi dengan pengaturan keamanan, SSID, dan autentikasi klien yang dikontrol sepenuhnya melalui perangkat lunak layaknya sebuah router Wi-Fi.
 
-Hostapd merupakan daemon user-space, artinya berjalan di latar belakang pada sistem operasi seperti Linux dan FreeBSD, dan memungkinkan perangkat lain terhubung seolah-olah komputer tersebut adalah router atau hotspot Wi-Fi standar.
 
 ## Cara Instal
 
