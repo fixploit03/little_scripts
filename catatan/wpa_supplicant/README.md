@@ -1,6 +1,6 @@
 # wpa_supplicant
 
-`wpa_supplicant` adalah perangkat lunak sumber terbuka (open-source) yang berfungsi sebagai agen autentikasi untuk mengelola koneksi jaringan nirkabel (Wi-Fi) pada sistem operasi berbasis Linux, Android, dan BSD. Perangkat ini bertindak sebagai jembatan antara perangkat keras kartu jaringan dan titik akses (access point) dengan menangani proses negosiasi keamanan, seperti enkripsi WPA, WPA2, hingga WPA3, serta pengelolaan kunci (key management) agar pertukaran data tetap terlindungi. Secara teknis, ia berjalan di latar belakang sebagai daemon yang secara otomatis mencari, memilih, dan memverifikasi kredensial jaringan sehingga perangkat dapat terhubung ke internet dengan aman dan stabil.
+wpa_supplicant adalah perangkat lunak sumber terbuka (open-source) yang berfungsi sebagai agen autentikasi untuk mengelola koneksi jaringan nirkabel (Wi-Fi) pada sistem operasi berbasis Linux, Android, dan BSD. Perangkat ini bertindak sebagai jembatan antara perangkat keras kartu jaringan dan titik akses (access point) dengan menangani proses negosiasi keamanan, seperti enkripsi WPA, WPA2, hingga WPA3, serta pengelolaan kunci (key management) agar pertukaran data tetap terlindungi. Secara teknis, ia berjalan di latar belakang sebagai daemon yang secara otomatis mencari, memilih, dan memverifikasi kredensial jaringan sehingga perangkat dapat terhubung ke internet dengan aman dan stabil.
 
 ## Cara Instal
 
