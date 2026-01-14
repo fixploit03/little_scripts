@@ -42,6 +42,18 @@ Tambahkan:
 #### 3. Ubah Metode EAP
 
 ```
+sudo nano /etc/freeradius/3.0/mods-available/eap
+```
+
+Ubah dari ini:
+
+```
+eap → default_eap_type = md5
+```
+
+Menjadi:
+
+```
 eap → default_eap_type = peap
 tls-config tls-common (aktif)
 peap → default_eap_type = mschapv2
